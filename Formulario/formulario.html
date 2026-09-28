@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./../style.css"/>
+        <title>1DAW</title>
+    </head>
+    <body>
+        <h1>FORMULARIO</h1>
+        <form action="formulario.php" method="GET">
+            <!-- Elección de asignatura -->
+            <p>Asignaturas</p>
+
+            <input type="radio" id="bbdd" name="asignatura" value="Bases de Datos"/>
+            <label for="bbdd">Bases de Datos</label><br/>
+
+            <input type="radio" id="pro" name="asignatura" value="Programación"/>
+            <label for="pro">Programación</label><br/>
+
+            <input type="radio" id="eed" name="asignatura" value="Entornos de Desarrollo"/>
+            <label for="eed">Entornos de Desarrollo</label><br/>
+
+            <input type="radio" id="lmsgi" name="asignatura" value="Lenguajes de Marca y Sistemas de Gestión de la Información"/>
+            <label for="lmsgi">Lenguajes de Marca y Sistemas de Gestión de la Información</label><br>
+
+            <input type="radio" id="ssii" name="asignatura" value="Sistemas Informáticos"/>
+            <label for="ssii">Sistemas Informáticos</label><br>
+
+            <input type="radio" id="ingles" name="asignatura" value="Inglés Profesional"/>
+            <label for="ingles">Inglés Profesional</label><br>
+
+            <input type="radio" id="ipe" name="asignatura" value="IPE I"/>
+            <label for="ipe">IPE I</label>
+
+            <!-- Elección de profesor -->
+            <p>Profesor</p>
+
+            <input type="checkbox" id="isa" name="profesor[]" value="Isabel"/>
+            <label for="isa">Isabel</label>
+
+            <input type="checkbox" id="alberto" name="profesor[]" value="Alberto"/>
+            <label for="alberto">Alberto</label>
+
+            <input type="checkbox" id="paco" name="profesor[]" value="Paco"/>
+            <label for="paco">Paco</label>
+
+            <input type="checkbox" id="tomas" name="profesor[]" value="Tomás"/>
+            <label for="tomas">Tomás</label>
+
+            <input type="checkbox" id="chema" name="profesor[]" value="Chema"/>
+            <label for="chema">Chema</label>
+
+            <input type="checkbox" id="santiago" name="profesor[]" value="Santiago"/>
+            <label for="santiago">Santiago</label>
+
+            <!-- Horas del profesor -->
+            <p>
+                <label for="horas">Horas:</label>
+                <input id="horas" type="text" name="horas"/>
+            </p>
+            
+            <!-- Info adicional-->
+            <p>
+                <label for="info">Información o comentarios</label>
+            </p>
+            <textarea id="info" name="info"></textarea>
+
+            <br/><br/>
+
+            <input type="submit" value="Enviar"/>
+        </form>
+    </body>
+</html>
