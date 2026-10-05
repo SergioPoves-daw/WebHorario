@@ -1,0 +1,29 @@
+html {
+    background-color: lightblue;
+}
+
+body {
+    width: 1000px;
+}
+
+header {
+    height: 200px;
+}
+
+main {
+    background-color: lightsteelblue;
+    display: flow-root;
+}
+
+footer {
+    height: 200px;
+}
+
+div {
+    height: 200px;
+    float: left;
+}
+
+#izq {
+    background-color: lightslategray;
+}
