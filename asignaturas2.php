@@ -1,4 +1,5 @@
 <?php
+// Versión de prueba de todas las filas sin fetch_array 1 a 1 manual
 include 'configdb.php';
 
     if (!$resultado->num_rows) { // Si no hay filas

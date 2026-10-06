@@ -1,0 +1,16 @@
+table {
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: solid 2px black;
+    padding: 5px;
+}
+
+a {
+    padding: 5px;
+    border: solid 2px black;
+    margin: 70px;
+    background-color: lightgray;
+}

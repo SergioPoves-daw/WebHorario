@@ -3,36 +3,37 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* Medidas formulario:
-Margen lados: 170px
-Padding: 8px
-Borde: 2px
-Separación lateral total: 180px
-Ancho total del formulario: 1000px
-Padding inicial del input text: 5px
-*/
+h1 {
+    margin: 0px 0px 20px 180px;
+}
+
+/* FORMULARIO */
 form {
     margin: 0px 160px 0px 160px;
-    padding: 8px;
+    padding: 20px;
     border: solid 2px black;
-    width: 1000px;
-    text-align: center;
+    width: 700px;
     background-color: rgb(175, 255, 175);
+    font-size: 12px;
 }
 
 p {
-    font-size: 20px;
-    margin: 10px;
+    font-size: 18px;
+    padding: 0px 0px 0px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+input[type=checkbox] {
+    margin: 0px 0px 0px 20px;
 }
 
 input[type=text] {
     padding: 0px 0px 0px 5px;
     border: solid 1px black;
-    text-align: center;
 }
 
 input[type=radio] {
-    margin: 5px;
+    margin: 0px 0px 0px 20px;
 }
 
 input[type=submit] {
@@ -42,10 +43,18 @@ input[type=submit] {
 }
 
 label {
-    padding: 5px;
+    display: inline-block;
+    width: 660px; /* Los radio ocupan 14px de width pero tienen 20 margin-left -> 661w+14w+20m = 695px*/
+    /*margin: 0px 650px 0px 0px;*/
 }
 
-/* Tabla del horario*/
+textarea {
+    margin: 0px 0px 0px 10px;
+    padding: 5px;
+}
+/* FIN FORMULARIO */
+
+/* TABLA DEL HORARIO */
 table {
     width: 70%;
     margin: auto;
@@ -73,7 +82,7 @@ table, th, td {
     padding: 10px;
 }
 
-h1, h2, td {
+h2, td {
     text-align: center;
 }
 
@@ -128,3 +137,4 @@ footer {
     background-color: rgba(255, 255, 255, 0);
     border: none;
 }
+/* FIN TABLA DEL HORARIO */

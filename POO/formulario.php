@@ -1,0 +1,25 @@
+<?php
+    require './casignatura.php';
+
+    $info = new Casignatura();
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Añadir fila</title>
+</head>
+<body>
+    <h1>Añadir asignatura</h1>
+    <form action="./insertar.php" method="POST">
+        <label for="nombre">Asignatura: </label>
+        <input type="text" id="nombre" name="asignatura"/><br/><br/>
+
+        <label for="color">Color: </label>
+        <input type="text" id="color" name="color" maxlength=7 placeholder="#1a2b3c"/><br/><br/>
+
+        <input type="submit" value="Añadir">
+    </form>
+</body>
+</html>

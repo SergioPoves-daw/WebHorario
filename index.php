@@ -53,7 +53,7 @@
             echo '<br/><br/>';
 
             echo '<tr>'; 
-            echo '<td></td>'; // ¿Cómo podría colocarse bien sin este espacio en blanco?
+            echo '<td></td>';
             
             // Mostrar los días
             // Ejemplo de representación de la información que usa foreach:
