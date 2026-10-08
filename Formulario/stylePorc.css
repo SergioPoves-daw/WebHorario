@@ -1,0 +1,58 @@
+body {
+    background-color: lightgreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 1920px;
+}
+
+h1 {
+    margin: 0% 0% 1.04% 9.37%;
+    /*  (20m * 100) / 1920w body = 1.04%
+        (180m * 100) / 1920w body = 9.37%
+    */
+}
+
+/* FORMULARIO */
+form {
+    margin: 0% 8.33% 0% 8.33%; /* (160m * 100) / 1920w body = 8.33%*/
+    padding: 1.04%; /* (20p * 100) / 1920w body = 1.04%*/
+    border: solid 2px black;
+    width: 36.45%; /* (700w form * 100) / 1920w body = 36.45% */
+    background-color: rgb(175, 255, 175);
+    font-size: 12px;
+}
+
+p {
+    font-size: 18px;
+    padding: 0% 0% 0% 1.42%; /* (10p * 100) / 700w form = 1.42%*/
+    margin: 1.42% 0% 1.42% 0px; /* (10m * 100) / 700w form = 1.42%*/
+}
+
+input[type=checkbox] {
+    margin: 0% 0% 0% 2.85%; /* (20m * 100) / 700w form = 2.85%*/
+}
+
+input[type=text] {
+    padding: 0% 0% 0% 0.71%; /* (5p * 100) / 700w form = 0.71%*/
+    border: solid 1px black;
+}
+
+input[type=radio] {
+    margin: 0% 0% 0% 2.85%; /* (20m * 100) / 700w form = 2.85%*/
+}
+
+input[type=submit] {
+    border: solid 2px black;
+    padding: 0.71%; /* (5p * 100) / 700w form = 0.71%*/
+    width: 14.28%; /* (100w input * 100) / 700 w form = 14.28% */
+}
+
+label {
+    display: inline-block;
+    width: 94.28%; /* (660w label * 100) / 700 w form =  94.28%*/
+}
+
+textarea {
+    margin: 0% 0% 0% 1.42%; /* (10m * 100) / 700w form = 1.42%*/
+    padding: 0.71%; /* (5p * 100) / 700w form = 0.71%*/
+}
+/* FIN FORMULARIO */

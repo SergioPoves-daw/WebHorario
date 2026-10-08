@@ -14,3 +14,7 @@ a {
     margin: 70px;
     background-color: lightgray;
 }
+
+td a {
+    margin: 5px;
+}

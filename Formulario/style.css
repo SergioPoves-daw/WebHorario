@@ -1,0 +1,55 @@
+body {
+    background-color: lightgreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 0px 0px 20px 180px;
+}
+
+/* FORMULARIO */
+form {
+    margin: 0px 160px 0px 160px;
+    padding: 20px;
+    border: solid 2px black;
+    width: 700px;
+    background-color: rgb(175, 255, 175);
+    font-size: 12px;
+}
+
+p {
+    font-size: 18px;
+    padding: 0px 0px 0px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+input[type=checkbox] {
+    margin: 0px 0px 0px 20px;
+}
+
+input[type=text] {
+    padding: 0px 0px 0px 5px;
+    border: solid 1px black;
+}
+
+input[type=radio] {
+    margin: 0px 0px 0px 20px;
+}
+
+input[type=submit] {
+    border: solid 2px black;
+    padding: 5px;
+    width: 100px;
+}
+
+label {
+    display: inline-block;
+    width: 660px; /* Los radio ocupan 14px de width pero tienen 20 margin-left -> 661w+14w+20m = 695px*/
+    /*margin: 0px 650px 0px 0px;*/
+}
+
+textarea {
+    margin: 0px 0px 0px 10px;
+    padding: 5px;
+}
+/* FIN FORMULARIO */

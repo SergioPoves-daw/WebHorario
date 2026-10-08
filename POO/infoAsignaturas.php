@@ -1,7 +1,7 @@
 <?php
     require './casignatura.php';
 
-    $info = new Casignatura();
+    $info = new Casignatura($conexion);
     $asignaturas = $info->obtenerDatos(); // Traer filas de la BD al array
 ?>
 
@@ -10,7 +10,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Asignaturas</title>
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>TABLA DE ASIGNATURAS / COLOR</h1>
@@ -18,12 +18,13 @@
             <tr>
                 <th>ASIGNATURA</th>
                 <th>COLOR</th>
+                <th>PROCESO</th>
             </tr>
             <?php
                 // Mandar las asignaturas (array) a la función para mostrar la tabla
                 $info->listarAsignaturas($asignaturas);
             ?>
         </table>
-        <a href="./formulario.php">Añadir</a>
+        <a href="./formularioInsertar.html">Añadir</a>
     </body>
 </html>
