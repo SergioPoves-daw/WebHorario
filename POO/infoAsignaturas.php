@@ -22,7 +22,27 @@
             </tr>
             <?php
                 // Mandar las asignaturas (array) a la función para mostrar la tabla
-                $info->listarAsignaturas($asignaturas);
+                if (isset($asignaturas)) {
+                    foreach ($asignaturas as $asignatura) {
+                        echo '<tr>';
+                        echo '<td>' . $asignatura["nombre"] . '</td>';
+                        echo '<td style="background-color: ' . $asignatura["color"] . ';">' . $asignatura["color"] . '</td>';
+                        echo '<td>';
+
+                        // Mandar ID por GET a la página modificar
+                        echo '<a href="formularioModificar.php?id=' . $asignatura["idAsignatura"] . '">M</a>';
+
+                        // Mandar ID por GET a la página eliminar
+                        echo '<a href="confirmarEliminar.php?id=' . $asignatura["idAsignatura"] . '">E</a>';
+
+                        echo '</td>';
+                        echo '</tr>';
+                    }
+                }
+
+                else {
+                    echo '<p>No hay asignaturas</p>';
+                }
             ?>
         </table>
         <a href="./formularioInsertar.html">Añadir</a>
