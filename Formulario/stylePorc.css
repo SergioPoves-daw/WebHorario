@@ -1,22 +1,26 @@
+html {
+    width: 957px;
+    margin: auto;
+}
+
 body {
     background-color: lightgreen;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 1920px;
 }
 
 h1 {
-    margin: 0% 0% 1.04% 9.37%;
-    /*  (20m * 100) / 1920w body = 1.04%
-        (180m * 100) / 1920w body = 9.37%
+    margin: 0% 0% 2.089864158829676% 18.80877742946708%;
+    /*  (20m * 100) / 957w html = 2.089864158829676%
+        (180m * 100) / 957w html = 18.80877742946708%
     */
 }
 
 /* FORMULARIO */
 form {
-    margin: 0% 8.33% 0% 8.33%; /* (160m * 100) / 1920w body = 8.33%*/
-    padding: 1.04%; /* (20p * 100) / 1920w body = 1.04%*/
+    margin: 0% 16.71% 0% 16.71%; /* 160px margin y 957px width html*/
+    padding: 2.08%; /* 20px padding y 957px width html */
     border: solid 2px black;
-    width: 36.45%; /* (700w form * 100) / 1920w body = 36.45% */
+    width: 73.14%; /* 700px width form y 957px width html */
     background-color: rgb(175, 255, 175);
     font-size: 12px;
 }
