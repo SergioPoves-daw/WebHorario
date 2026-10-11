@@ -10,53 +10,56 @@ body {
 
 h1 {
     margin: 0% 0% 2.089864158829676% 18.80877742946708%;
-    /*  (20m * 100) / 957w html = 2.089864158829676%
-        (180m * 100) / 957w html = 18.80877742946708%
+    /*  20px margin y 957w html
+        180px margin y 957w html
     */
 }
 
 /* FORMULARIO */
 form {
-    margin: 0% 16.71% 0% 16.71%; /* 160px margin y 957px width html*/
-    padding: 2.08%; /* 20px padding y 957px width html */
+    margin: 0% 16.71891327063741% 0% 16.71891327063741%; /* 160px margin y 957px width html*/
+    padding: 2.089864158829676%; /* 20px padding y 957px width html */
     border: solid 2px black;
-    width: 73.14%; /* 700px width form y 957px width html */
+    width: 73.14524555903866%; /* 700px width form y 957px width html */
     background-color: rgb(175, 255, 175);
     font-size: 12px;
 }
 
 p {
     font-size: 18px;
-    padding: 0% 0% 0% 1.42%; /* (10p * 100) / 700w form = 1.42%*/
-    margin: 1.42% 0% 1.42% 0px; /* (10m * 100) / 700w form = 1.42%*/
+    /* font-size: 2em; (24px, en <form> son 12px puestos manualmente)*/
+    /* font-size: 2rem; (32px, en <html> por defecto son 16px) */
+    padding: 0% 0% 0% 1.428571428571429%; /* 10px padding y 700px width form */
+    margin: 1.428571428571429% 0% 1.428571428571429% 0px; /* 10px margin y 700px width form */
 }
 
 input[type=checkbox] {
-    margin: 0% 0% 0% 2.85%; /* (20m * 100) / 700w form = 2.85%*/
+    margin: 0% 0% 0% 2.857142857142857%; /* 20px margin y 700px width form */
 }
 
 input[type=text] {
-    padding: 0% 0% 0% 0.71%; /* (5p * 100) / 700w form = 0.71%*/
+    padding: 0% 0% 0% 0.7142857142857143%; /* 5px padding y 700px width form */
     border: solid 1px black;
 }
 
 input[type=radio] {
-    margin: 0% 0% 0% 2.85%; /* (20m * 100) / 700w form = 2.85%*/
+    margin: 0% 0% 0% 2.857142857142857%; /* 20px margin y 700px width form */
 }
 
 input[type=submit] {
     border: solid 2px black;
-    padding: 0.71%; /* (5p * 100) / 700w form = 0.71%*/
-    width: 14.28%; /* (100w input * 100) / 700 w form = 14.28% */
+    padding: 0.7142857142857143%; /* 5px padding y 700px width form */
+    width: 14.28571428571429%; /* 100px width y 700px width form */
 }
 
 label {
     display: inline-block;
-    width: 94.28%; /* (660w label * 100) / 700 w form =  94.28%*/
+    width: 94.28571428571429%; /* 660px width y 700px width form */
 }
 
 textarea {
-    margin: 0% 0% 0% 1.42%; /* (10m * 100) / 700w form = 1.42%*/
-    padding: 0.71%; /* (5p * 100) / 700w form = 0.71%*/
+    margin: 0% 0% 0% 1.428571428571429%; /* 10px margin y 700px width form */
+    padding: 0.7142857142857143%; /* 5px padding y 700px width form */
+    /* width: 2rem; */
 }
 /* FIN FORMULARIO */
