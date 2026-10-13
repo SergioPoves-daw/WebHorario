@@ -19,7 +19,6 @@ h1 {
 
 /* FORMULARIO */
 form {
-    /* Poner ancho mas pequeño al body */
     margin: 0% 6.269592476489028% 0% 6.269592476489028%; /* 60px margin y 957px width body*/
     padding: 1.044932079414838%; /* 10px padding y 957px width body */
     border: solid 2px black;
