@@ -1,26 +1,29 @@
 html {
-    width: 957px;
+    width: 1000px;
     margin: auto;
+    background-color: darkgreen;
 }
 
 body {
+    width: 95.7%; /* 957px width y 1000px width html */
     background-color: lightgreen;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    margin: 0% 0% 2.089864158829676% 18.80877742946708%;
-    /*  20px margin y 957w html
-        180px margin y 957w html
+    margin: 0% 0% 2.089864158829676% 6.269592476489028%;
+    /*  20px margin y 957px width body
+        60px margin y 957px width body
     */
 }
 
 /* FORMULARIO */
 form {
-    margin: 0% 16.71891327063741% 0% 16.71891327063741%; /* 160px margin y 957px width html*/
-    padding: 2.089864158829676%; /* 20px padding y 957px width html */
+    /* Poner ancho mas pequeño al body */
+    margin: 0% 6.269592476489028% 0% 6.269592476489028%; /* 60px margin y 957px width body*/
+    padding: 1.044932079414838%; /* 10px padding y 957px width body */
     border: solid 2px black;
-    width: 73.14524555903866%; /* 700px width form y 957px width html */
+    width: 73.14524555903866%; /* 700px width form y 957px width body */
     background-color: rgb(175, 255, 175);
     font-size: 12px;
 }

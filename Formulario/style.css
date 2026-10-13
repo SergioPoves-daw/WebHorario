@@ -1,16 +1,23 @@
+html {
+    width: 1000px;
+    margin: auto;
+    background-color: darkgreen;
+}
+
 body {
+    width: 957px;
     background-color: lightgreen;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    margin: 0px 0px 20px 180px;
+    margin: 0px 0px 20px 60px;
 }
 
 /* FORMULARIO */
 form {
-    margin: 0px 160px 0px 160px;
-    padding: 20px;
+    margin: 0px 60px 0px 60px;
+    padding: 10px;
     border: solid 2px black;
     width: 700px;
     background-color: rgb(175, 255, 175);
