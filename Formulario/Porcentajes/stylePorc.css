@@ -1,0 +1,67 @@
+html {
+    width: 1000px;
+    margin: auto;
+    background-color: darkgreen;
+}
+
+body {
+    width: 95.7%; /* 957px width y 1000px width html */
+    background-color: lightgreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 0% 0% 2.089864158829676% 6.269592476489028%;
+    /*  20px margin y 957px width body
+        60px margin y 957px width body
+    */
+}
+
+/* FORMULARIO */
+form {
+    margin: 0% 6.269592476489028% 0% 6.269592476489028%; /* 60px margin y 957px width body*/
+    padding: 1.044932079414838%; /* 10px padding y 957px width body */
+    border: solid 2px black;
+    width: 73.14524555903866%; /* 700px width form y 957px width body */
+    background-color: rgb(175, 255, 175);
+    font-size: 12px;
+}
+
+p {
+    font-size: 18px;
+    /* font-size: 2em; (24px, en <form> son 12px puestos manualmente)*/
+    /* font-size: 2rem; (32px, en <html> por defecto son 16px) */
+    padding: 0% 0% 0% 1.428571428571429%; /* 10px padding y 700px width form */
+    margin: 1.428571428571429% 0% 1.428571428571429% 0px; /* 10px margin y 700px width form */
+}
+
+input[type=checkbox] {
+    margin: 0% 0% 0% 2.857142857142857%; /* 20px margin y 700px width form */
+}
+
+input[type=text] {
+    padding: 0% 0% 0% 0.7142857142857143%; /* 5px padding y 700px width form */
+    border: solid 1px black;
+}
+
+input[type=radio] {
+    margin: 0% 0% 0% 2.857142857142857%; /* 20px margin y 700px width form */
+}
+
+input[type=submit] {
+    border: solid 2px black;
+    padding: 0.7142857142857143%; /* 5px padding y 700px width form */
+    width: 14.28571428571429%; /* 100px width y 700px width form */
+}
+
+label {
+    display: inline-block;
+    width: 94.28571428571429%; /* 660px width y 700px width form */
+}
+
+textarea {
+    margin: 0% 0% 0% 1.428571428571429%; /* 10px margin y 700px width form */
+    padding: 0.7142857142857143%; /* 5px padding y 700px width form */
+    /* width: 2rem; */
+}
+/* FIN FORMULARIO */
