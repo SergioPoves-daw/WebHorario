@@ -1,0 +1,50 @@
+img {
+    width: 150px;
+}
+
+#tierra {
+    float: right;
+}
+
+#saturno {
+    
+}
+
+#marte {
+    float: right;
+}
+
+/* 
+- Ninguno foat: Tierra -> Marte -> <a> --> Saturno en línea, con espacios entre ellos
+
+- Todos float left: Tierra --> Marte --> Saturno --> <a> y justo debajo Footer, sin espacios entre ellos
+    porque main ocupa casi lo mismo que <h2>, sin coger el tamaño de las imágenes, por lo que el footer
+    sube en lugar de quedarse abajo, y el <a> se coloca al final y no en medio porque no es float
+
+- Todos float right: <a> y justo debajo Footer porque main ocupa casi lo mismo que <h2> sin coger el tamaño
+    de las imágenes, por lo que sube en lugar de quedarse abajo, y el <a> se coloca el primero a la izquierda
+    porque las imágenes están a la derecha. En cambio, las imágenes están a la derecha en este orden:
+    Saturno --> Marte --> Tierra, sin espacio entre ellas.
+
+- Marte y Saturno float left: Tierra no es float, así que ambos se colocan en orden 
+    (se ven entre ellos al ser float: left) y la Tierra la última. El <a> Se posiciona al lado de la Tierra.
+
+- Marte y Saturno float right: Tierra se posiciona normal, y ambos se colocan a la derecha del todo suigiendo su posicionamiento
+
+- Saturno left y Marte right: Saturno --> Tierra --> <a> sin espacios entre ellos. Marte a la derecha del todo
+
+- Saturno right y Marte left: Marte --> Tierra --> <a> sin espacios entre ellos. A la derecha del todo, Saturno.
+
+- Tierra y Marte float right, Saturno float left: Saturno --> <a> y justo debajo Footer, ya que el main tiene el
+    espacio un poco mas de <h2> debido a que las imágenes son flotantes y el footer sube. A la derecha del todo:
+    Marte --> Tierra sin espacios entre ellos
+
+- Tierra y Marte float right, Saturno float left y <p> entre Tierra y Marte: <p> se posiciona en su lugar,
+    la Tierra está a la derecha del todo, y Marte a su derecha posicionado un poco más abajo, debido al <p>
+    entre ambos, mientras Saturno está a la izquierda con <a> justo a la derecha y Footer justo debajo de <a>
+    debido a que el main acaba después del <p>
+
+- Saturno sin float y Marte y Tierra float right: <a> --> Saturno, debido a que <a> está colocado
+    antes que Saturno en el HTML, mientras Marte y Tierra están a la derecha del todo, y footer debajo
+    del <a> y Saturno juntos
+*/
