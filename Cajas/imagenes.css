@@ -1,0 +1,33 @@
+img {
+    width: 150px;
+}
+/* Las imágenes se colocan en inline pero se comportan como block porque se puede modificar su ancho,
+debido a que las imágenes tienen ancho y alto por defecto, lo que se puede cambiar */
+
+#tierra {
+    /* Posicionamiento estático (por defecto) */
+    z-index: 1;
+}
+
+#marte {
+    position: relative;
+    z-index: 2;
+    top: 10px;
+    left: 50px;
+    /* Se coloca debajo porque el <p> es un elemento en bloque, por lo que la imagen se mueve hacia abajo */
+}
+
+#saturno {
+    position: relative;
+    top: 30px;
+    left: 12px; /* Se superpone sobre el <a> porque el <a> se coloca según la posición original de la imagen */
+    /* Parece que el <a> se mueve según la posición de la imagen, pero en realidad está donde le corresponde, que
+    es al lado de la posición original de la imagen. Si no, no se estaría superponiendo */
+    z-index: 3; /* Si ambos tienen el mismo nivel de z-index, la superpone la última en el CSS */
+}
+/* La posición relativa mueve los elementos desde su posición original y se pueden superponer entre ellas */
+
+footer {
+    position: sticky;
+    bottom: 0px; /* Clava el elemento a la parte inferior del contenedor */
+}

@@ -18,7 +18,20 @@ p {
     background-color: lightskyblue;
     /* padding: 60px; */
     /*margin: 50px 50px 50px 50px;*/
-    position: absolute;
+    position: absolute; /* Posicionamiento fuera de la caja (solapa) */
     top: 5px;
     left: 5px;
+}
+
+p + p {
+    position: absolute; /* Posicionamiento fuera de la caja (solapa) */
+    top: 40px;
+    left: 40px;
+}
+
+p + p + p {
+    position: relative; /* Posicionamiento dentro de la caja */
+    /* Guarda el top y left del anterior */
+    top: 0;
+    left: 0;
 }
