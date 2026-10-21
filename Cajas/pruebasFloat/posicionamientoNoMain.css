@@ -1,0 +1,17 @@
+#izq {
+    float: right;
+}
+
+#centro {
+    clear: left;
+}
+
+#der {
+    float: right;
+}
+
+/*
+    - Todos float left: Izq --> Centro --> Der --> Footer porque al ser todo float, el main no tiene tamaño
+    - Todos float right: Footer y derecha del todo Der --> Centro --> Izq porque en <html> están en orden
+        Izq --> Centro --> Der, así que se colocan 1 a 1 siguiendo el orden de la estructura
+*/

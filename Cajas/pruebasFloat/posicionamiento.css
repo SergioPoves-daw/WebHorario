@@ -12,7 +12,7 @@ header {
 
 main {
     background-color: lightsteelblue;
-    display: flow-root;
+    display: flow-root; /* Coge el alto de los contenedores flotantes y los coloca juntos en bloque */
     /*position: absolute; el main ocupa lo mismo que el contenido (ambos div juntos)*/
     /*display: inline-block; los contenedores se encogen al width del contenido y mantienen el height*/
     /*display: inline; el main no ocupa nada como sin flow-root pero los divs sí*/
