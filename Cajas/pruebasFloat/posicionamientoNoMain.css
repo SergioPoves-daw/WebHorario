@@ -3,7 +3,7 @@
 }
 
 #centro {
-    clear: left;
+    float: left;
 }
 
 #der {

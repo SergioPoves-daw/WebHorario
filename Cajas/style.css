@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
+    background-color: lightskyblue;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+li {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+    width: 50%;
+}
