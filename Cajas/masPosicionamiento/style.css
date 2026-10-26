@@ -12,15 +12,16 @@
 
 main {
     display: flow-root;
-    position: absolute;
+    /*position: relative;*/
 }
 
 #main2 {
-    margin: 20px;
-    /* display: flow-root; */
+    /*margin: 20px;
+    display: flow-root;
     position: relative;
     top: 0px;
-    left: 250px;
+    left: 250px;*/
+    background-color: palevioletred;
 }
 
 img {
@@ -34,10 +35,39 @@ img {
 
 #marte {
     /* float: left; */
-    position: absolute;
+    position: relative;
 }
 
 #saturno {
     /* float: left; */
+    position: absolute;
+}
+
+#main3 {
+    background-color: palevioletred;
+    margin: 50px;
+    display: flow-root;
+    width: 120px;
+}
+
+#div3 {
+    background-color: palegoldenrod;
+    /* position: relative;
+    left: 20px; */
+    height: 60px;
+    float: right; /* Si se pone position: absolute, se pone a la izquierda porque no tendría dónde flotar */
     position: relative;
+}
+
+#div4 {
+    background-color: palegreen;
+    /* position: absolute; */
+    position: relative;
+}
+
+#div5 {
+    background-color: paleturquoise;
+    /* position: relative;
+    left: 20px; */
+    position: absolute; /* Se coloca seguido del de la izquierda porque esta sería su posición normal */
 }

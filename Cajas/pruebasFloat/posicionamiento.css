@@ -29,5 +29,10 @@ div {
 }
 
 #izq {
+    float: left;
     background-color: lightslategray;
+}
+
+#der {
+    float: left;
 }
