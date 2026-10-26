@@ -1,0 +1,43 @@
+#div1 {
+    float: left;
+    background-color: aqua;
+    height: 200px;
+}
+
+#div2 {
+    float: left;
+    background-color: pink;
+    height: 200px;
+}
+
+main {
+    display: flow-root;
+    position: absolute;
+}
+
+#main2 {
+    margin: 20px;
+    /* display: flow-root; */
+    position: relative;
+    top: 0px;
+    left: 250px;
+}
+
+img {
+    width: 200px;
+}
+
+#tierra {
+    /* float: left; */
+    position: relative;
+}
+
+#marte {
+    /* float: left; */
+    position: absolute;
+}
+
+#saturno {
+    /* float: left; */
+    position: relative;
+}

@@ -7,7 +7,8 @@ img {
 }
 
 #saturno {
-    
+    position: relative;
+    right: 0;
 }
 
 #marte {
