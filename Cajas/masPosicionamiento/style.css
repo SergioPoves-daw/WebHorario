@@ -22,6 +22,7 @@ main {
     top: 0px;
     left: 250px;*/
     background-color: palevioletred;
+    position: relative;
 }
 
 img {
@@ -70,4 +71,35 @@ img {
     /* position: relative;
     left: 20px; */
     position: absolute; /* Se coloca seguido del de la izquierda porque esta sería su posición normal */
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: plum;
+    }
+
+    #tierra {
+        /* float: left; */
+        position: relative;
+        top: 20px;
+    }
+
+    #marte {
+        /* float: left; */
+        position: relative;
+        left: 50px;
+    }
+
+    #saturno {
+        /* float: left; */
+        position: absolute;
+        bottom: 50px;
+        left: 100px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: palegreen;
+    }
 }
