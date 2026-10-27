@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Posicionamiento</title>
     <link rel="stylesheet" href="./imagenes.css"/>
 </head>
@@ -18,14 +19,16 @@
             <h2>Posicionamiento relativo:</h2>
             <!-- Las imágenes son inline pero se comportan como block porque las imágenes tienen ancho y alto por defecto,
             por lo que pueden modificarse con CSS aunque sea inline -->
-            <img id="tierra" src="./../imagenes/tierra.jpg">
-            <p>Hola</p>
-            <img id="marte" src="./../imagenes/marte.jpg">
-            <img id="saturno" src="./../imagenes/saturno.jpg">
+        </main>
+            <div>
+                <img id="tierra" src="./../imagenes/tierra.jpg">
+                <!-- <p>Hola</p> -->
+                <img id="marte" src="./../imagenes/marte.jpg">
+                <img id="saturno" src="./../imagenes/saturno.jpg">
+            </div>
             <a>Hola</a>
             <br/><br/>
             <p>Se colocan con top y left respecto a su posición original, no desde el top y left 0 de la caja padre como el posicionamiento absoluto</p>
-        </main>
         <footer>
             <p>Footer</p>
         </footer>

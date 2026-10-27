@@ -85,6 +85,11 @@ img {
     top: 0px; /* La caja contenedora es relative, asi que se ven entre ellas, no se posiciona arriba del todo de la pagina */
 }
 
+footer {
+    background-color: burlywood;
+    height: 2em;
+}
+
 @media screen and (max-width: 1000px) {
     body {
         background-color: plum;
@@ -130,6 +135,6 @@ img {
     }
 
     #div2 {
-        width: 20px;
+        width: 30px;
     }
 }

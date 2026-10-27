@@ -1,8 +1,20 @@
-img {
+html {
+    width: 1351px;
+}
+
+body {
+    width: 59.21539600296077%; /* 800px width de 1351px html */
+}
+
+main img {
     width: 150px;
 }
 /* Las imágenes se colocan en inline pero se comportan como block porque se puede modificar su ancho,
 debido a que las imágenes tienen ancho y alto por defecto, lo que se puede cambiar */
+
+div img {
+    width: 150px;
+}
 
 #tierra {
     /* Posicionamiento estático (por defecto) */
@@ -30,4 +42,60 @@ debido a que las imágenes tienen ancho y alto por defecto, lo que se puede camb
 footer {
     position: sticky;
     bottom: 0px; /* Clava el elemento a la parte inferior del contenedor */
+}
+
+@media screen and (width <= 800px) {
+    body {
+        background-color: black;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    div {
+        width: 100%; /* 800px */
+    }
+
+    div img {
+        display: inline;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 33%;
+    }
+
+    p {
+        color: darkblue;
+    }
+
+    footer {
+        width: 93.75%; /* 750px width y 800px width body */
+        background-color: darkblue;
+    }
+
+    footer p {
+        color: white;
+        font-size: 2em;
+    }
+}
+
+@media screen and (width <= 600px) {
+    footer p {
+        font-size: 3em;
+    }
+
+    div {
+        position: relative;
+    }
+
+    #marte {
+        visibility: hidden;
+    }
+
+    #saturno {
+        position: absolute;
+        left: 300px;
+        top: 50px;
+    }
 }
